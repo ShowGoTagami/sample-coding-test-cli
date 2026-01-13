@@ -17,6 +17,10 @@ npm run dev
 # ビルド後実行
 npm run build
 npm start
+
+# ローカルコマンドとして実行(ビルド実行後)
+npm link 
+goal-tracker list
 ```
 
 ## コマンド一覧
