@@ -18,7 +18,7 @@
 
 **コマンド:**
 ```
-add "Employee Name" "Goal" "Team Name"
+npm run dev add "Employee Name" "Goal" "Team Name"
 ```
 
 **レコード内容:**
@@ -37,7 +37,7 @@ add "Employee Name" "Goal" "Team Name"
 
 **コマンド:**
 ```
-list "Employee Name"
+npm run dev list "Employee Name"
 ```
 
 指定した従業員の目標を一覧表示します。
@@ -48,12 +48,12 @@ list "Employee Name"
 
 **コマンド:**
 ```
-update <id> "Status"
+npm run dev update <id> "Status"
 ```
 
 **例:** 目標ID 1 のステータスを `In Progress` に更新
 ```
-update 1 "In Progress"
+npm run dev update 1 "In Progress"
 ```
 
 ---
@@ -62,12 +62,12 @@ update 1 "In Progress"
 
 **コマンド:**
 ```
-delete <id>
+npm run dev delete <id>
 ```
 
 **例:** 目標ID 2 を削除
 ```
-delete 2
+npm run dev delete 2
 ```
 
 ---
@@ -76,7 +76,7 @@ delete 2
 
 **コマンド:**
 ```
-summary "Team Name"
+npm run dev summary "Team Name"
 ```
 
 チーム全体の目標数を、以下のステータスごとに集計します:
@@ -91,7 +91,7 @@ summary "Team Name"
 ### 追加 (Add)
 
 ```
-add "Sofi" "Schedule 1:1 meetings with the rest of the team" "Engineering"
+npm run dev add "Sofi" "Schedule 1:1 meetings with the rest of the team" "Engineering"
 ```
 → Engineering チームに新しい目標を追加し、Sofi に割り当て。
 
@@ -100,7 +100,7 @@ add "Sofi" "Schedule 1:1 meetings with the rest of the team" "Engineering"
 ### 一覧表示 (List)
 
 ```
-list "Sofi"
+npm run dev list "Sofi"
 ```
 → Sofi に割り当てられた目標を表示。
 
@@ -119,7 +119,7 @@ Completed:
 ### 更新 (Update)
 
 ```
-update 2 "In Progress"
+npm run dev update 2 "In Progress"
 ```
 → 目標2のステータスを `In Progress` に更新。
 
@@ -128,7 +128,7 @@ update 2 "In Progress"
 ### 削除 (Delete)
 
 ```
-delete 1
+npm run dev delete 1
 ```
 → 目標1を削除。
 
@@ -137,7 +137,7 @@ delete 1
 ### サマリー (Summary)
 
 ```
-summary "Engineering"
+npm run dev summary "Engineering"
 ```
 → Engineering チームの目標一覧を表示。
 
