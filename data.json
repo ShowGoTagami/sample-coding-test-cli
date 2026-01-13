@@ -1,0 +1,29 @@
+{
+  "goals": [
+    {
+      "id": 1,
+      "employeeName": "Sofi",
+      "goal": "Set goals for the Engineering team",
+      "teamName": "Engineering",
+      "createdAt": "2024-01-15T10:00:00.000Z",
+      "status": "In Progress"
+    },
+    {
+      "id": 2,
+      "employeeName": "Taro",
+      "goal": "Complete quarterly report",
+      "teamName": "Sales",
+      "createdAt": "2024-01-16T09:30:00.000Z",
+      "status": "Not Started"
+    },
+    {
+      "id": 3,
+      "employeeName": "Sofi",
+      "goal": "Review code for new feature",
+      "teamName": "Engineering",
+      "createdAt": "2024-01-17T14:00:00.000Z",
+      "status": "Completed"
+    }
+  ],
+  "nextId": 4
+}
